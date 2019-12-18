@@ -41,7 +41,7 @@ switch (bulan) {
     break;
 };
 
-If (bulan >= 13 || tanggal >= 32) {
+if (bulan >= 13 || tanggal >= 32) {
   console.log('Error: mohon input bulan dan tanggal yang tepat');
 } else {
   console.log(tanggal + ' ' + bulan + ' '+ tahun);
